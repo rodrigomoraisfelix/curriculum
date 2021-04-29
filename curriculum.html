@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rodrigo De Morais Félix:: Curriculum Vitae </title>
+    <style>
+        body {
+            margin: 100px;
+
+            background-color: rgb(255, 255, 255);
+
+            color: rgb(22, 20, 20);
+
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-image: url(./baixados.jpg);
+         background-size: 980px;
+        }
+
+
+        strong {
+            color: blueviolet;
+            font-weight: bold;
+        }
+
+        /* First letter edita a primeira letra de cada paragrafo */
+        p::first-letter {
+            font-size: 50px;
+            color: blueviolet;
+            font-weight: bold;
+
+        }
+
+        p {
+            text-align: justify;
+            width: 70%;
+            text-indent: 40px;
+
+        }
+
+        h1 {
+            font-size: 50px;
+        }
+
+        /* Para fazer comentarios selecionar o text e apertar ctrç+; */
+        h2 {
+
+            margin-top: 80px;
+            font-size: 50px;
+
+        }
+
+        h2:hover {
+            color: teal;
+        }
+
+        a {
+            color: blueviolet;
+        }
+
+        a:hover {
+            color: teal;
+        }
+ nav{
+     margin-left: 10px;
+ }
+        /* regra unica para ul e li dentro de nav */
+        nav ul {
+            list-style-type: none;
+            border: solid 5px;
+            width: 220px;
+            padding: 3px;
+            background-color: rgb(219, 205, 219);
+        }
+
+        /* converte tags li e a para tipo de caixa (existe tipos inline e caixa) */
+        nav ul li {
+            width: 50px;
+        }
+
+        nav ul li,
+        nav ul li a {
+            display: block;
+            width: 200px;
+            border-style: solid;
+
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            height: 25px;
+            padding: 4;
+
+        }
+
+        nav ul li a:hover {
+
+            color: rgb(47, 0, 255);
+        }   
+        figure {
+            margin: 0 auto;
+            width: 300px;
+            border-radius: 50%;
+            overflow: hidden;
+            height: 300px;
+            box-shadow:  5px 5px 5px black;
+           
+        }
+        figure img {
+           width: 100%; 
+        }
+        h3 strong a {
+            font-size: 20px;
+            text-decoration: none;
+            position: relative;
+            top: 50px;
+        }
+       
+    </style>
+</head>
+
+<body>
+    <!-- h1 e assim por diante usa-se para para dar importancia dos titulos -->
+    <h1 style="color: rgb(28, 28, 29);" id="menu">Rodrigo de Morais Félix - Curriculum </h1>
+    <!-- <nav> links de ancora navegam procurando uma tag <aname> ou um atriburo (id) -->
+    <figure><img src="./Tanjiro Kamado .jpg" alt="foto tanjiro kamado personagem de um anime">
+    </figure>
+    <nav>
+        <ul>
+            <li><a href="#dados_pessoais">Dados Pessoais</a></li>
+            <li><a href="#experiencia_profissional">Experiência Profissional</a></li>
+            <li><a href="#formacao">Formação</a></li>
+            <li><a href="#objetivos">Objetivos</a></li>
+            <li><a href="#quem_sou_eu">Quem Sou eu?</a></li>
+        </ul>
+    </nav>
+
+
+
+
+    <h2 id="dados_pessoais">Dados Pessoais</h2>
+    <!-- <ul> é uma lista com marcadores e cada item da lista usa a tag <li> -->
+    <!-- tag strong usado para dar negrito a palavra  -->
+    <ul type="square">
+        <li style="color: rgb(37, 37, 35);"><strong>Nome:</strong> Rodrigo de Morais Félix</li>
+        <li><strong>Endereço: </strong> Pousada do Vale - São José dos Campos</li>
+        <li><strong>Cel : </strong> (12)982399305</li>
+        <li><strong>Email : </strong> Miragerodi@gmail.com</li>
+        <li> <strong>Facebook : </strong><a href="https://www.facebook.com/rodrigo.morais.370/" target="_blank"> Rodrigo
+                de Morais Félix</a></li>
+    </ul>
+
+
+
+    <h2 id="experiencia_profissional">Experiência Profissional</h2>
+    <!-- tag ol é uma lista numerada  e Tag  br usada para passar a palavra para linha de baixo -->
+    <ul type="square">
+        <li><strong> E.E VALMAR LOURENÇO SANTIAGO </strong> <br><strong>Função: </strong> monitor de informatica 1 ano
+        </li>
+        <li><strong>ATACADÃO</strong><br><strong>Função : </strong> Balconista 2015-2016</li>
+        <li><strong>ATACADÃO </strong><br><strong>Função : </strong> Repositor 2016 - atual</li>
+    </ul>
+
+
+    <h2 id="formacao">Formação</h2>
+    <ul type="square">
+        <li><strong>Ensino Médio Completo</strong></li>
+        <li><strong>Cursando Técnico em TI - Senac</strong></li>
+
+    </ul>
+
+    <h2 id="objetivos">Objetivos</h2>
+    <ul type="square">
+        <li><strong>Manunteção de Computadores</strong></li>
+        <li><strong>Programador Web</strong></li>
+        <li><strong>Analista de sistema</strong></li>
+        <li><strong>Programador junior</strong></li>
+    </ul>
+
+
+    <!-- alt +z faz a linha de texto ficar em um tamanho padrão -->
+    <h2 id="quem_sou_eu">Quem sou eu?</h2>
+    <p>Meu nome é Rodrigo tenho 25 anos, gosto de jogos eletronicos e ler, tenho facilidade pra aprender coisas
+        novas,sou caseiro e obviamente não gosto de multidões e festas, mas apesar disso tenho faciliade para me
+        relacionar com outras pessoas. </p>
+    <p>Sou Natural de brasilia mas moro em São José desde criança, sempre fui apaixonado por jogos,computadores e tudos
+        que esta relacionado a ela, gosto de entender como tudo funciona e sempre quis trabalhar com isso.</p>
+
+    <h3><Strong><a href="#menu">inicio</a></Strong></h3>
+</body>
+
+</html>
